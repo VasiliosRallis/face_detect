@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="xil_assert.c" compiler="gcc" objfile="src/xil/xil_assert.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/xil" flags="-I/home/vgr16/nfshome/face_with_corner/src/xil -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

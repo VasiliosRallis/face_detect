@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="xaxivdma_g.c" compiler="gcc" objfile="src/vdma/xaxivdma_g.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/vdma" flags="-I/home/vgr16/nfshome/face_with_corner/src/vdma -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

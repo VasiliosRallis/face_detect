@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="display_ctrl.c" compiler="gcc" objfile="src/display_ctrl/display_ctrl.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/display_ctrl" flags="-I/home/vgr16/nfshome/face_with_corner/src/display_ctrl -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

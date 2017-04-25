@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="dynclk.c" compiler="gcc" objfile="src/dynclk/dynclk.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/dynclk" flags="-I/home/vgr16/nfshome/face_with_corner/src/dynclk -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

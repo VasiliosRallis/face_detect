@@ -1,0 +1,16 @@
+(c) Copyright 2012-2015 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sds++ 2015.4 SW Build on Jan  9 2016 13:43:45
+# Start time    : Tue Apr 25 10:03:46 BST 2017
+# Command line  : sds++ -Wall -O3 -I../src -c -fmessage-length=0 -MTsrc/tools/MoveAvg.o -MMD -MP -MFsrc/tools/MoveAvg.d -MTsrc/tools/MoveAvg.d -o src/tools/MoveAvg.o ../src/tools/MoveAvg.cpp -sds-hw ocvSwFastCorner my_ocv_sw.cpp -clkid 3 -sds-end -sds-pf /home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in
+# Log file      : /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/reports/sds_MoveAvg.log
+# Journal file  : /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/reports/sds_MoveAvg.jou
+# Report file   : /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/reports/sds_MoveAvg.rpt
+#-----------------------------------------------------------
+
+# INFO: [SDSoC 0-0] Create data motion intermediate representation
+clang_wrapper -target arm-xilinx-linux-gnueabi -mcpu=cortex-a9 -mfpu=vfp -O0 -g    -I /home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/Vivado_HLS/2015.4/include   -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include/c++/4.9.2  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include/c++/4.9.2/arm-xilinx-linux-gnueabi  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include/c++/4.9.2/backward   -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.9.2/include  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.9.2/include-fixed  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include -I../src -Wall -fmessage-length=0 -MMD -MP -D __SDSCC__ -emit-llvm -S /home/vgr16/nfshome/face_with_corner/src/tools/MoveAvg.cpp -o /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/.llvm/src/tools/MoveAvg.s
+# INFO: [SDSoC 0-0] Compiling /home/vgr16/nfshome/face_with_corner/src/tools/MoveAvg.cpp
+arm-xilinx-linux-gnueabi-g++ -c -I../src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__ -MT/home/vgr16/nfshome/face_with_corner/SDRelease/src/tools/MoveAvg.o -MF/home/vgr16/nfshome/face_with_corner/SDRelease/src/tools/MoveAvg.d -MT/home/vgr16/nfshome/face_with_corner/SDRelease/src/tools/MoveAvg.d  -I /home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/Vivado_HLS/2015.4/include /home/vgr16/nfshome/face_with_corner/src/tools/MoveAvg.cpp -o src/tools/MoveAvg.o
+arm-xilinx-linux-gnueabi-objcopy --add-section .xdsdata=/home/vgr16/nfshome/face_with_corner/SDRelease/_sds/swstubs/MoveAvg.o.xml src/tools/MoveAvg.o
+# sds++ completed at Tue Apr 25 10:03:46 BST 2017

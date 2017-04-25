@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="video_capture.c" compiler="gcc" objfile="src/video_capture/video_capture.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/video_capture" flags="-I/home/vgr16/nfshome/face_with_corner/src/video_capture -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

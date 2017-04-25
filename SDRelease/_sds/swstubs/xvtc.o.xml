@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="xvtc.c" compiler="gcc" objfile="src/vtc/xvtc.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/vtc" flags="-I/home/vgr16/nfshome/face_with_corner/src/vtc -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="xgpio_g.c" compiler="gcc" objfile="src/gpio/xgpio_g.o" srcpath="/home/vgr16/nfshome/face_with_corner/src/gpio" flags="-I/home/vgr16/nfshome/face_with_corner/src/gpio -I/home/vgr16/nfshome/face_with_corner/src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdsproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sdsproject="http://www.xilinx.com/sdsproject" name="face_with_corner" platform="/home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in" os="Linux" ConfigType="SDRelease">
+  <options insertapm="false" genbitstream="true" gensdcard="true" dmclkid="3" enableHwSwTrace="false" traceApplication="false">
+    <accelerator name="ocvSwFastCorner" filepath="src/cv/my_ocv_sw.cpp" clkid="3"/>
+  </options>
+</sdsproject:Project>

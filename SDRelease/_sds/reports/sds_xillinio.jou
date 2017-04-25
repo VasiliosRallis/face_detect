@@ -1,0 +1,16 @@
+(c) Copyright 2012-2015 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sds++ 2015.4 SW Build on Jan  9 2016 13:43:45
+# Start time    : Tue Apr 25 10:03:38 BST 2017
+# Command line  : sds++ -Wall -O3 -I../src -c -fmessage-length=0 -MTsrc/xillinio/xillinio.o -MMD -MP -MFsrc/xillinio/xillinio.d -MTsrc/xillinio/xillinio.d -o src/xillinio/xillinio.o ../src/xillinio/xillinio.cpp -sds-hw ocvSwFastCorner my_ocv_sw.cpp -clkid 3 -sds-end -sds-pf /home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in
+# Log file      : /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/reports/sds_xillinio.log
+# Journal file  : /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/reports/sds_xillinio.jou
+# Report file   : /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/reports/sds_xillinio.rpt
+#-----------------------------------------------------------
+
+# INFO: [SDSoC 0-0] Create data motion intermediate representation
+clang_wrapper -target arm-xilinx-linux-gnueabi -mcpu=cortex-a9 -mfpu=vfp -O0 -g    -I /home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/Vivado_HLS/2015.4/include   -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include/c++/4.9.2  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include/c++/4.9.2/arm-xilinx-linux-gnueabi  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include/c++/4.9.2/backward   -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.9.2/include  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.9.2/include-fixed  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/include  -I/usr/local/Xilinx/SDSoC/2015.4/SDK/2015.4/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include -I../src -Wall -fmessage-length=0 -MMD -MP -D __SDSCC__ -emit-llvm -S /home/vgr16/nfshome/face_with_corner/src/xillinio/xillinio.cpp -o /home/vgr16/nfshome/face_with_corner/SDRelease/_sds/.llvm/src/xillinio/xillinio.s
+# INFO: [SDSoC 0-0] Compiling /home/vgr16/nfshome/face_with_corner/src/xillinio/xillinio.cpp
+arm-xilinx-linux-gnueabi-g++ -c -I../src -Wall -O3 -fmessage-length=0 -MMD -MP -D __SDSCC__ -MT/home/vgr16/nfshome/face_with_corner/SDRelease/src/xillinio/xillinio.o -MF/home/vgr16/nfshome/face_with_corner/SDRelease/src/xillinio/xillinio.d -MT/home/vgr16/nfshome/face_with_corner/SDRelease/src/xillinio/xillinio.d  -I /home/vgr16/homedir/ZYBO_SDSoC_platforms-master/2015.4/zybo_hdmi_in/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/arm-xilinx-linux-gnueabi/include  -I /usr/local/Xilinx/SDSoC/2015.4/Vivado_HLS/2015.4/include /home/vgr16/nfshome/face_with_corner/src/xillinio/xillinio.cpp -o src/xillinio/xillinio.o
+arm-xilinx-linux-gnueabi-objcopy --add-section .xdsdata=/home/vgr16/nfshome/face_with_corner/SDRelease/_sds/swstubs/xillinio.o.xml src/xillinio/xillinio.o
+# sds++ completed at Tue Apr 25 10:03:39 BST 2017
