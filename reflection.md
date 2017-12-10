@@ -1,6 +1,6 @@
 Personal Reflection
 ==================== 
-Imperial Login: vgr16 
+Imperial Login: vgr16
 Group Name: Cipher 
   
 Group Working
